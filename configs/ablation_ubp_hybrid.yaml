@@ -1,0 +1,9 @@
+inherits: base.yaml
+
+experiment:
+  name: ablation_ubp_hybrid
+  mode: within_subject
+
+ubp:
+  target_space: hybrid
+  mode: hybrid

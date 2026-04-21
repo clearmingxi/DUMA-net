@@ -1,0 +1,16 @@
+inherits: base.yaml
+
+experiment:
+  name: ablation_subject_conditioning
+  mode: within_subject
+
+model:
+  encoder_type: NCT_C
+  subject_conditioning: auto
+
+data:
+  avg: true
+
+ubp:
+  target_space: curriculum
+  mode: curriculum

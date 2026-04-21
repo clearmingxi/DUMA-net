@@ -1,0 +1,9 @@
+inherits: base.yaml
+
+experiment:
+  name: ablation_ubp_adaptive
+  mode: within_subject
+
+ubp:
+  target_space: adaptive
+  mode: adaptive

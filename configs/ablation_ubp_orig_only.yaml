@@ -1,0 +1,9 @@
+inherits: base.yaml
+
+experiment:
+  name: ablation_ubp_orig_only
+  mode: within_subject
+
+ubp:
+  target_space: orig-only
+  mode: orig_only

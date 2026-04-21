@@ -1,0 +1,19 @@
+inherits: base.yaml
+
+experiment:
+  name: cross_subject_baseline
+  mode: cross_subject
+
+clip:
+  variant: ViT-H-14
+
+model:
+  encoder_type: NCT_C
+
+ubp:
+  target_space: curriculum
+  mode: curriculum
+  curriculum_start_level: 4
+  curriculum_end_level: 0
+  curriculum_begin_epoch: 0
+  curriculum_end_epoch: 80

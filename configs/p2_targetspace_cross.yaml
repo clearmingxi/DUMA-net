@@ -1,0 +1,18 @@
+inherits: cross_subject_baseline.yaml
+
+experiment:
+  name: p2_targetspace_cross
+
+clip:
+  variant: RN50
+
+model:
+  encoder_type: NCT_S
+  subject_conditioning: false
+
+data:
+  avg: true
+
+ubp:
+  target_space: curriculum
+  mode: curriculum
