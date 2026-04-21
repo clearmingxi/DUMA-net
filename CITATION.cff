@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the repository using the metadata below."
+title: "DUMA-net"
+type: software
+authors:
+  - family-names: "He"
+    given-names: "Mingxi"
+repository-code: "https://github.com/clearmingxi/DUMA-net"
+url: "https://github.com/clearmingxi/DUMA-net"
+license: "MIT"
+version: "public-release"
+date-released: 2026-04-21
+abstract: >
+  Public code release for EEG-to-vision retrieval experiments built around
+  configuration-driven execution, P1/P2/P3 experiment scripts, and normalized
+  result collection utilities.

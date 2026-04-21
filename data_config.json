@@ -1,0 +1,50 @@
+{
+  "data_path": "/path/to/eeg_data_root",
+  "img_directory_training": "/path/to/training_images",
+  "img_directory_test": "/path/to/test_images",
+  "features_path": "/path/to/default_clip_directory",
+  "clip_model_name": "ViT-H-14",
+  "clip_pretrained_path": "/path/to/default_clip_checkpoint/open_clip_pytorch_model.bin",
+  "clip_models": {
+    "RN50": {
+      "model_name": "RN50",
+      "hf_repo": "timm/resnet50_clip.openai",
+      "pretrained_path": "/path/to/RN50/open_clip_pytorch_model.bin"
+    },
+    "RN101": {
+      "model_name": "RN101",
+      "hf_repo": "timm/resnet101_clip.openai",
+      "pretrained_path": "/path/to/RN101/open_clip_pytorch_model.bin"
+    },
+    "ViT-B-16": {
+      "model_name": "ViT-B-16",
+      "hf_repo": "laion/CLIP-ViT-B-16-laion2B-s34B-b88K",
+      "pretrained_path": "/path/to/ViT-B-16/open_clip_pytorch_model.bin"
+    },
+    "ViT-B-32": {
+      "model_name": "ViT-B-32",
+      "hf_repo": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+      "pretrained_path": "/path/to/ViT-B-32/open_clip_pytorch_model.bin"
+    },
+    "ViT-L-14": {
+      "model_name": "ViT-L-14",
+      "hf_repo": "laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
+      "pretrained_path": "/path/to/ViT-L-14/open_clip_pytorch_model.bin"
+    },
+    "ViT-H-14": {
+      "model_name": "ViT-H-14",
+      "hf_repo": "laion/CLIP-ViT-H-14-laion2B-s32B-b79K",
+      "pretrained_path": "/path/to/ViT-H-14/open_clip_pytorch_model.bin"
+    },
+    "ViT-g-14": {
+      "model_name": "ViT-g-14",
+      "hf_repo": "laion/CLIP-ViT-g-14-laion2B-s34B-b88K",
+      "pretrained_path": "/path/to/ViT-g-14/open_clip_pytorch_model.bin"
+    },
+    "ViT-bigG-14": {
+      "model_name": "ViT-bigG-14",
+      "hf_repo": "laion/CLIP-ViT-bigG-14-laion2B-39B-b160k",
+      "pretrained_path": "/path/to/ViT-bigG-14/open_clip_pytorch_model.bin"
+    }
+  }
+}

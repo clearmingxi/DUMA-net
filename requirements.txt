@@ -1,0 +1,16 @@
+numpy
+scipy
+pandas
+matplotlib
+pillow
+pyyaml
+tqdm
+requests
+einops
+opencv-python
+scikit-learn
+sympy
+open-clip-torch
+git+https://github.com/openai/CLIP.git
+reformer-pytorch
+wandb
